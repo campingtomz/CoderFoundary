@@ -22,10 +22,18 @@
             padding-left: 10px;
             padding-top: 10px;
         }
+        .solution-output {
+            border: 1px solid black;
+            border-radius: 5px;
+            padding-left: 10px;
+         
+           
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <h4 >Math Calculations</h4>
         <input id="user-input" placeholder="Enter 5 numbers, divided by commas" />
         <div class="container-fluid">
             <div class="row">
@@ -60,12 +68,23 @@
         </div>
     </div>
     <div class="container">
+        <h4>Palindrome</h4>
         <h4>Enter a word for the Palindrome Test</h4>
         <input id="palindrome" />
         <button id="palindrome-button" class="btn btn-primary btn-large">Submit</button>
-        <h4 id="palindrome-output"></h4>
+        <h4 id="palindrome-output" class="solution-output"></h4>
     </div>
+
     <div class="container">
+        <h4> Factorial</h4>
+        <h4> Enter a number between 1-100</h4>
+        <input id="factorialInput" placeholder="Number" />
+        <button id="factorialBtn" class="btn btn-primary btn-large">Factorial</button>
+        <h4 id="factorial-output" class="solution-output"></h4>
+    </div>
+
+    <div class="container">
+        <h4> FizzBuzz</h4>
         <h4> Enter a number between 1-100</h4>
         <input id="inputNum1" placeholder="Number 1" />
         <input id="inputNum2" placeholder="NUmber 2" />
@@ -80,7 +99,7 @@
         </table>
     </div>
 
-        <script src="Script/jquery-3.5.1.min.js"></script>
-        <script src="Script/JavaScript.js"></script>
+    <script src="Script/jquery-3.5.1.min.js"></script>
+    <script src="Script/JavaScript.js"></script>
 </body>
 </html>
