@@ -5,143 +5,280 @@
 		 
 		  <div class="sp-slide">
 		  	<h1>Source Code</h1>
-		  	<pre data-src="../data/index.html" class="language-html line-numbers">
-				<code >
+		  	<pre  type="text/plain" data-src="../data/index.html" class="language-markup line-numbers">
+				<code>
+					<!--
+							<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>application 1</title>
+		<link href="CSS/bootstrap.css" rel="stylesheet" />
+
+	</head>
+	<body>
+		<h1> Bootstrap Grid System</h1>
+		<div class="row">
+			<div class="col-4" style="background-color:orange;">
+				<div class="row">
+					<div class="col">
+						<h4>4</h4>
+					</div>
+					<div class="col">
+						<h4>4</h4>
+					</div>
+					<div class="col">
+						<h4>4</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<h4>6</h4>
+					</div>
+					<div class="col-2">
+						<h4>6</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<h4>12</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-4" style="background-color:lightblue;">
+				<div class="row">
+					<div class="col">
+						<h3>3</h3>
+					</div>
+					<div class="col">
+						<h3>3</h3>
+					</div>
+					<div class="col">
+						<h3>3</h3>
+					</div>
+					<div class="col">
+						<h3>3</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-4" style="background-color:green;">
+				<div class="row">
+					<div class="col-8">
+						<h7>8</h7>
+					</div>
+					<div class="col-4">
+						<h7>4</h7>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<h7>6</h7>
+					</div>
+					<div class="col-3">
+						<h7>3</h7>
+					</div>
+					<div class="col-3">
+						<h7>3</h7>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<h7>2</h7>
+					</div>
+					<div class="col-3">
+						<h7>3</h7>
+					</div>
+					<div class="col-2">
+						<h7>2</h7>
+					</div>
+					<div class="col-3">
+						<h7>3</h7>
+					</div>
+					<div class="col-2">
+						<h7>2</h7>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1">
+						<h7>1</h7>
+					</div>
+					<div class="col-1">
+						<h7>1</h7>
+					</div>
+					<div class="col-1">
+						<h7>1</h7>
+					</div>
+					<div class="col-1">
+						<h7>1</h7>
+					</div>
+					<div class="col-1">
+						<h7>1</h7>
+					</div>
+					<div class="col-1">
+						<h7>1</h7>
+					</div>
+					<div class="col-1">
+						<h7>1</h7>
+					</div>
+					<div class="col-1">
+						<h7>1</h7>
+					</div>
+					<div class="col-1">
+						<h7>1</h7>
+					</div>
+					<div class="col-1">
+						<h7>1</h7>
+					</div>
+					<div class="col-1">
+						<h7>1</h7>
+					</div>
+					<div class="col-1">
+						<h7>1</h7>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<script src="script/jquery-3.5.1.min.js"></script>
+			<script src="script/bootstrap.js"></script>
+	</body>
+	</html>
+							-->
 					<!--&lt;!DOCTYPE html&gt;
-					&lt;html&gt;
-					&lt;head&gt;
-					&lt;meta charset=&quot;utf-8&quot; /&gt;
-					&lt;title&gt;application 1&lt;/title&gt;
-					&lt;link href=&quot;CSS/bootstrap.css&quot; rel=&quot;stylesheet&quot; /&gt;
+	&lt;html&gt;
+	&lt;head&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;title&gt;application 1&lt;/title&gt;
+	&lt;link href=&quot;CSS/bootstrap.css&quot; rel=&quot;stylesheet&quot; /&gt;
 
-					&lt;/head&gt;
-					&lt;body&gt;
-					&lt;h1&gt; Bootstrap Grid System&lt;/h1&gt;
-					&lt;div class=&quot;row&quot;&gt;
-					&lt;div class=&quot;col-4&quot; style=&quot;background-color:orange;&quot;&gt;
-					&lt;div class=&quot;row&quot;&gt;
-					&lt;div class=&quot;col&quot;&gt;
-					&lt;h4&gt;4&lt;/h4&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col&quot;&gt;
-					&lt;h4&gt;4&lt;/h4&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col&quot;&gt;
-					&lt;h4&gt;4&lt;/h4&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;row&quot;&gt;
-					&lt;div class=&quot;col-2&quot;&gt;
-					&lt;h4&gt;6&lt;/h4&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-2&quot;&gt;
-					&lt;h4&gt;6&lt;/h4&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;row&quot;&gt;
-					&lt;div class=&quot;col-12&quot;&gt;
-					&lt;h4&gt;12&lt;/h4&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-4&quot; style=&quot;background-color:lightblue;&quot;&gt;
-					&lt;div class=&quot;row&quot;&gt;
-					&lt;div class=&quot;col&quot;&gt;
-					&lt;h3&gt;3&lt;/h3&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col&quot;&gt;
-					&lt;h3&gt;3&lt;/h3&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col&quot;&gt;
-					&lt;h3&gt;3&lt;/h3&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col&quot;&gt;
-					&lt;h3&gt;3&lt;/h3&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-4&quot; style=&quot;background-color:green;&quot;&gt;
-					&lt;div class=&quot;row&quot;&gt;
-					&lt;div class=&quot;col-8&quot;&gt;
-					&lt;h7&gt;8&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-4&quot;&gt;
-					&lt;h7&gt;4&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;row&quot;&gt;
-					&lt;div class=&quot;col-6&quot;&gt;
-					&lt;h7&gt;6&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-3&quot;&gt;
-					&lt;h7&gt;3&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-3&quot;&gt;
-					&lt;h7&gt;3&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;row&quot;&gt;
-					&lt;div class=&quot;col-2&quot;&gt;
-					&lt;h7&gt;2&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-3&quot;&gt;
-					&lt;h7&gt;3&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-2&quot;&gt;
-					&lt;h7&gt;2&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-3&quot;&gt;
-					&lt;h7&gt;3&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-2&quot;&gt;
-					&lt;h7&gt;2&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;row&quot;&gt;
-					&lt;div class=&quot;col-1&quot;&gt;
-					&lt;h7&gt;1&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-1&quot;&gt;
-					&lt;h7&gt;1&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-1&quot;&gt;
-					&lt;h7&gt;1&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-1&quot;&gt;
-					&lt;h7&gt;1&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-1&quot;&gt;
-					&lt;h7&gt;1&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-1&quot;&gt;
-					&lt;h7&gt;1&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-1&quot;&gt;
-					&lt;h7&gt;1&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-1&quot;&gt;
-					&lt;h7&gt;1&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-1&quot;&gt;
-					&lt;h7&gt;1&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-1&quot;&gt;
-					&lt;h7&gt;1&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-1&quot;&gt;
-					&lt;h7&gt;1&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;col-1&quot;&gt;
-					&lt;h7&gt;1&lt;/h7&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+	&lt;h1&gt; Bootstrap Grid System&lt;/h1&gt;
+	&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-4&quot; style=&quot;background-color:orange;&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col&quot;&gt;
+	&lt;h4&gt;4&lt;/h4&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col&quot;&gt;
+	&lt;h4&gt;4&lt;/h4&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col&quot;&gt;
+	&lt;h4&gt;4&lt;/h4&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-2&quot;&gt;
+	&lt;h4&gt;6&lt;/h4&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-2&quot;&gt;
+	&lt;h4&gt;6&lt;/h4&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-12&quot;&gt;
+	&lt;h4&gt;12&lt;/h4&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-4&quot; style=&quot;background-color:lightblue;&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col&quot;&gt;
+	&lt;h3&gt;3&lt;/h3&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col&quot;&gt;
+	&lt;h3&gt;3&lt;/h3&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col&quot;&gt;
+	&lt;h3&gt;3&lt;/h3&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col&quot;&gt;
+	&lt;h3&gt;3&lt;/h3&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-4&quot; style=&quot;background-color:green;&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-8&quot;&gt;
+	&lt;h7&gt;8&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-4&quot;&gt;
+	&lt;h7&gt;4&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-6&quot;&gt;
+	&lt;h7&gt;6&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-3&quot;&gt;
+	&lt;h7&gt;3&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-3&quot;&gt;
+	&lt;h7&gt;3&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-2&quot;&gt;
+	&lt;h7&gt;2&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-3&quot;&gt;
+	&lt;h7&gt;3&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-2&quot;&gt;
+	&lt;h7&gt;2&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-3&quot;&gt;
+	&lt;h7&gt;3&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-2&quot;&gt;
+	&lt;h7&gt;2&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-1&quot;&gt;
+	&lt;h7&gt;1&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-1&quot;&gt;
+	&lt;h7&gt;1&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-1&quot;&gt;
+	&lt;h7&gt;1&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-1&quot;&gt;
+	&lt;h7&gt;1&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-1&quot;&gt;
+	&lt;h7&gt;1&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-1&quot;&gt;
+	&lt;h7&gt;1&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-1&quot;&gt;
+	&lt;h7&gt;1&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-1&quot;&gt;
+	&lt;h7&gt;1&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-1&quot;&gt;
+	&lt;h7&gt;1&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-1&quot;&gt;
+	&lt;h7&gt;1&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-1&quot;&gt;
+	&lt;h7&gt;1&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;col-1&quot;&gt;
+	&lt;h7&gt;1&lt;/h7&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
 
-					&lt;script src=&quot;script/jquery-3.5.1.min.js&quot;&gt;&lt;/script&gt;
-					&lt;script src=&quot;script/bootstrap.js&quot;&gt;&lt;/script&gt;
-					&lt;/body&gt;
-					&lt;/html&gt;-->
+	&lt;script src=&quot;script/jquery-3.5.1.min.js&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;script/bootstrap.js&quot;&gt;&lt;/script&gt;
+	&lt;/body&gt;
+	&lt;/html&gt;-->
 				</code>
 			</pre>
 

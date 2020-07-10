@@ -201,6 +201,11 @@
     <Content Include="img\logo.png" />
     <Content Include="img\map-pin.png" />
     <Content Include="img\openhand.cur" />
+    <Content Include="img\svg\csharp.svg" />
+    <Content Include="img\svg\HTML5.svg" />
+    <Content Include="img\svg\Java-Logo.svg" />
+    <Content Include="img\svg\js.svg" />
+    <Content Include="img\svg\Python.svg" />
     <Content Include="img\timer.png" />
     <Content Include="script\bootstrap.min.js" />
     <Content Include="script\classie.js" />
